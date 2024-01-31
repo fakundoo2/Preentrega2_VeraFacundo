@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #141414;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: rgb(229, 229, 229);
+    width: auto;
+}
+
+.logo {
+    padding: 10px 15px;
+}
+nav{
+   display: flex;
+}
+nav ul {
+    display: flex;
+    margin-bottom: 0%;
+}
+  
+li {
+    display: flex;
+    list-style: none;
+    background-color: #363636;
+    margin: 2px;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(253, 253, 253);
+}
+
+.bannerH {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.fotos-container {
+    width: 80vw;
+    margin: 20px;
+}
+
+.staff {
+    padding: 20px;
+}
+
+.staff-fotos-content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.staff h2 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.staff img {
+    width: 80px;
+    height: 80px;
+}
+
+.staff-foto {
+    border-radius: 50%;
+    border: solid 5px rgb(60, 60, 60);
+}
+
+footer {
+    background-color:rgb(229, 229, 229);
+    display: flex;
+    align-items: center;
+}
+
+.logo-footer{
+    width: 40vw;
+}
+.contacto {
+    padding: 15px;
+    width: 70vw;
+}
+
+.contacto p {
+    color: rgb(43, 43, 43);
+}
+
+.redes img {
+    width: 50px;
+    height: 50px;
+}
+
+/*productos*/
+.cajaProductos{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: rgb(90, 90, 91);
+    padding: 15px;
+    margin: 20px;
+    align-items: center;
+}
+
+.card-img {
+    width: 90%;
+    height: 90%;  
+}
+
+.card p {
+    text-align: center;
+    font-size: 22px;
+    color: aliceblue;    
+}
+
+/*quienes somos*/
+.quienessomos{
+    padding: 20px;
+}
+
+@media (max-width: 684px) {
+    header {
+      flex-direction: column;
+    }
+
+    nav ul{
+        margin-right: 20px;
+    }
+    footer {
+      flex-direction: column;
+    }
+
+
+  }
